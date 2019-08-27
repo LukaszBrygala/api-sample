@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "outDir": "./built",
+    "target": "es6"
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
